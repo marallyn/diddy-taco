@@ -1,0 +1,47 @@
+body {
+    margin: 0; /* Remove default body margins */
+    overflow: hidden; /* Prevent scrollbars */
+}
+
+h1 {
+    margin-bottom: 0.5em;
+    text-align: center;
+}
+#gameCanvas {
+    display: block; /* Prevents a small gap below canvas */
+    width: 100vw; /* Canvas takes full viewport width */
+    /* height: calc(100vh - 100px);  Canvas takes full viewport height minus space for buttons and inputs*/
+    background-color: pink; /* Light gray background */
+}
+
+/* div {
+      margin-top: 10px;
+} */
+
+header {
+    display: flex; /* Enable flexbox for header */
+    justify-content: space-around; /* Distribute space evenly */
+    align-items: center; /* Vertically align items */
+    /* padding: 10px; Add some padding */
+}
+
+.input-group {
+    display: flex; /* Enable flexbox for input groups */
+    align-items: center; /* Vertically align items */
+    margin-right: 20px; /* Add spacing between groups */
+}
+
+.input-group label {
+    margin-right: 5px; /* Add spacing between label and input */
+}
+
+.game-info {
+    display: flex; /* Enable flexbox */
+    justify-content: space-around; /* Distribute space */
+    align-items: center; /* Vertically align */
+    padding: 10px;
+}
+
+.game-info span {
+    margin: 0 10px; /* Add some margin around the spans */
+}

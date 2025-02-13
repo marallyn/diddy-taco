@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mouth Snake Diddy Taco</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Mouth Snake Diddy Taco</h1>
+    <header>
+        <div class="input-group">
+            <label for="tacoDensity">Taco density:</label>
+            <input type="number" id="tacoDensity" value="3" min="1">
+        </div>
+        <div class="input-group">
+            <label for="diddyDensity">Diddy density:</label>
+            <input type="number" id="diddyDensity" value="10" min="1">
+        </div>
+        <div class="input-group">
+            <label for="gridSize">Grid size:</label>
+            <input type="number" id="gridSize" value="60" min="1">
+        </div>
+    </header>
+    <div class="game-info">
+        <span id="speed">Speed: 0</span>
+        <span id="score">Score: 0</span>
+        <span id="timer">Time: 0</span>
+    </div>
+
+    <canvas id="gameCanvas"></canvas>
+    <script src="snake.js"></script>
+</body>
+</html>
