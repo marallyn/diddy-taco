@@ -1,2 +1,2 @@
 # diddy-taco
-Sanke game with diddy and tacos
+Snake game with diddy and tacos
