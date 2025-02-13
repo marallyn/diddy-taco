@@ -1,0 +1,3 @@
+convert taco3.png -fuzz 10% -transparent white taco4.png
+convert baby-oil.jpeg baby-oil.png && rm baby-oil.jpeg
+convert baby-oil.png -fuzz 10% -transparent white baby-oil.png
